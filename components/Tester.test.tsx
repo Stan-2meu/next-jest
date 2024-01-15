@@ -7,8 +7,6 @@ describe('Home', () => {
     render(<Tester />)
  
     const component = screen.getAllByText("tester");
-    console.log({component})
- 
     expect(component).toHaveLength(1);
   })
 })
