@@ -1,6 +1,7 @@
+import Tester from "@/components/Tester"
 function Home() {
   return (
-    <div>Home</div>
+    <Tester></Tester>
   )
 }
 
