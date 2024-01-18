@@ -8,5 +8,8 @@ describe('Home', () => {
  
     const component = screen.getAllByText("tester");
     expect(component).toHaveLength(1);
+
+    const styled = screen.getAllByText("styled component");
+    expect(styled).toHaveLength(1);
   })
 })

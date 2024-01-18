@@ -1,8 +1,10 @@
-import styled from "@emotion/styled";
+import styled from "styled-components";
 export default function Tester() {
   // return <h1>Tester</h1>;
   return (
     <Container>
+      <Styled>styled component</Styled>
+      <Styled>styled component</Styled>
       <div>tester</div>
       {/* <div>tester</div> */}
       <div>tester 2</div>
@@ -11,6 +13,10 @@ export default function Tester() {
 }
 
 const Container = styled.div`
-  display: flex;
-  padding:200px;
+  margin:100px;
+`
+
+const Styled = styled.div`
+  background-color:#505050;
+  color:#0f0f0f;
 `;
